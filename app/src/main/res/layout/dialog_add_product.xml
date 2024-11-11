@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/backgroundColor">
+
+    <!-- Título del formulario -->
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Producto"
+        android:textSize="20sp"
+        android:textColor="@color/textPrimary"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="16dp" />
+
+    <!-- Campo de nombre del producto -->
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Producto"
+        android:backgroundTint="@color/inputBackground"
+        android:padding="12dp"
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="12dp"
+        android:elevation="2dp"/>
+
+    <!-- Campo de precio del producto -->
+    <EditText
+        android:id="@+id/edit_text_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/inputBackground"
+        android:padding="12dp"
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="12dp"
+        android:elevation="2dp"/>
+
+    <!-- Campo de cantidad del producto -->
+    <EditText
+        android:id="@+id/edit_text_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="number"
+        android:backgroundTint="@color/inputBackground"
+        android:padding="12dp"
+        android:textColorHint="@color/hintColor"
+        android:textColor="@color/textPrimary"
+        android:elevation="2dp"/>
+</LinearLayout>

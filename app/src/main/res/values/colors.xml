@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#F3F4F6</color>
+    <color name="textPrimary">#333333</color>
+    <color name="buttonColor">#00796B</color>
+    <color name="itemBackground">#FFFFFF</color>
+    <color name="inputBackground">#FFFFFF</color>
+    <color name="hintColor">#9E9E9E</color>
+    <color name="textSecondary">#666666</color>
+    <color name="buttonUpdate">#4CAF50</color>
+    <color name="buttonDelete">#F44336</color>
+</resources>
